@@ -1,5 +1,12 @@
 const csvtojson = require("csvtojson");
 
+if (process.argv.length === 2) { 
+  console.error('Expected at least one argument!'); 
+  process.exit(1); 
+ }
+
+const filename = process.argv[2]
+
 const { MongoClient, ServerApiVersion } = require("mongodb");
 // Replace the placeholder with your Atlas connection string
 const uri = "mongodb://localhost:27017";
@@ -13,15 +20,19 @@ const client = new MongoClient(uri,  {
     }
 );
 
-
-
 getData = async () => { 
-  return await csvtojson().fromFile("data/MLB_TEAM.csv")
+  // filename = "data/MLB_TEAM.csv" 
+  return await csvtojson().fromFile(filename)
 }
 
 run = async() => {
 
   const data = await getData()
+
+  if (data == undefined || data.length == 0) { 
+    console.error('The data could not be parsed'); 
+    process.exit(1); 
+  }
 
   console.log(data)
 

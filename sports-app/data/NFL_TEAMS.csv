@@ -1,0 +1,35 @@
+﻿Rk,Franchise,Sport,From,To,G,W,L,T,W-L%,AV,Passer,Rusher,Receiver,Coaching,Yr plyf,W plyf,L plyf,W-L% ply,Chmp,SBwl,Conf,Div
+1000,Arizona Cardinals,NFL,1920,2023,1412,581,790,41,0.424,Fitzgerald,Hart,Anderson,Fitzgerald,Arians,11,7,10,0.412,2,0,1,8
+1001,Atlanta Falcons,NFL,1966,2023,882,383,493,6,0.437,Ryan,Ryan,Riggs,Jones,Smith,14,10,14,0.417,0,0,2,7
+1002,Baltimore Ravens,NFL,1996,2023,434,243,190,1,0.561,Lewis,Flacco,Lewis,Mason,Harbaugh,14,16,12,0.571,2,2,2,6
+1003,Buffalo Bills,NFL,1960,2023,965,462,495,8,0.483,Smith,Kelly,Thomas,Reed,Levy,22,18,20,0.474,2,0,4,14
+1004,Carolina Panthers,NFL,1995,2023,450,212,237,1,0.472,Newton,Newton,Stewart,Smith,Rivera,8,9,8,0.529,0,0,2,6
+1005,Chicago Bears,NFL,1920,2023,1452,786,624,42,0.557,Payton,Cutler,Payton,Morris,Halas,27,17,20,0.459,9,1,2,24
+1006,Cincinnati Bengals,NFL,1968,2023,853,385,463,5,0.454,Munoz,Anderson,Dillon,Johnson,Lewis,16,10,16,0.385,0,0,3,12
+1007,Cleveland Browns,NFL,1946,2023,1090,548,528,14,0.509,Matthews,Sipe,Brown,Newsome,Brown,29,17,21,0.447,8,0,0,23
+1008,Dallas Cowboys,NFL,1960,2023,964,550,408,6,0.574,Smith,Romo,Smith,Witten,Landry,35,36,30,0.545,5,5,8,25
+1009,Denver Broncos,NFL,1960,2023,966,500,456,10,0.523,Elway,Elway,Davis,Smith,Shanahan,22,23,19,0.548,3,3,8,15
+1010,Detroit Lions,NFL,1930,2023,1315,579,702,34,0.452,Sanders,Stafford,Sanders,Johnson,Fontes,17,7,13,0.35,4,0,0,8
+1011,Green Bay Packers,NFL,1921,2023,1418,790,590,38,0.572,Rodgers,Favre,Green,Driver,Lambeau,35,36,25,0.59,13,4,5,31
+1012,Houston Texans,NFL,2002,2023,338,142,195,1,0.422,Watt,Schaub,Foster,Johnson,Kubiak,6,4,6,0.4,0,0,0,6
+1013,Indianapolis Colts,NFL,1953,2023,1048,547,493,8,0.526,Manning,Manning,James,Harrison,Dungy,29,23,25,0.479,4,2,4,21
+1014,Indianapolis Colts,NFL,1984,2023,625,325,299,1,0.521,,,,,,19,15,18,,1,1,2,11
+1015,Jacksonville Jaguars,NFL,1995,2023,450,189,261,0,0.42,Smith,Brunell,Taylor,Smith,Coughlin,8,8,8,0.5,0,0,0,4
+1016,Kansas City Chiefs,NFL,1960,2023,966,521,433,12,0.546,Shields,Dawson,Charles,Gonzalez,Stram,25,20,21,0.488,4,3,5,16
+1017,Las Vegas Raiders,NFL,1960,2023,966,497,458,11,0.52,Otto,Carr,Allen,Brown,Madden,23,25,20,0.556,3,3,5,16
+1018,Los Angeles Chargers,NFL,1960,2023,966,478,477,11,0.501,Rivers,Rivers,Tomlinson,Gates,Gillman,20,12,19,0.387,1,0,1,15
+1019,Los Angeles Rams,NFL,1937,2023,1217,604,592,21,0.505,Olsen,Everett,Jackson,Bruce,Robinson,31,26,27,0.491,4,2,5,21
+1020,Miami Dolphins,NFL,1966,2023,882,485,393,4,0.552,Marino,Marino,Csonka,Duper,Shula,24,20,22,0.476,2,2,5,14
+1021,Minnesota Vikings,NFL,1961,2023,952,516,425,11,0.548,Eller,Tarkenton,Peterson,Carter,Grant,31,21,31,0.404,0,0,4,21
+1022,New England Patriots,NFL,1960,2023,966,537,420,9,0.561,Brady,Brady,Cunningham,Morgan,Belichick,28,37,22,0.627,6,6,11,22
+1023,New Orleans Saints,NFL,1967,2023,868,403,460,5,0.467,Brees,Brees,Ingram,Colston,Payton,14,10,13,0.435,1,1,1,9
+1024,New York Giants,NFL,1925,2023,1387,715,638,34,0.528,Taylor,Manning,Barber,Toomer,Owen,33,25,26,0.49,8,4,5,25
+1025,New York Jets,NFL,1960,2023,966,421,537,8,0.44,Maynard,Namath,Martin,Maynard,Ewbank,14,12,13,0.48,1,1,1,4
+1026,Philadelphia Eagles,NFL,1933,2023,1270,613,630,27,0.493,White,McNabb,McCoy,Carmichael,Reid,29,25,25,0.5,4,1,4,16
+1027,Pittsburgh Steelers,NFL,1933,2023,1254,661,571,22,0.536,Roethlisberger,Roethlisberger,Harris,Ward,Noll,33,36,27,0.571,6,6,8,25
+1028,San Francisco 49ers,NFL,1946,2023,1138,612,510,16,0.545,Rice,Montana,Gore,Rice,Seifert,29,37,24,0.607,5,5,7,22
+1029,Seattle Seahawks,NFL,1976,2023,742,383,358,1,0.517,Wilson,Wilson,Alexander,Largent,Carroll,20,17,19,0.472,1,1,3,11
+1030,Tampa Bay Buccaneers,NFL,1976,2023,742,299,442,1,0.404,Brooks,Winston,Wilder,Evans,Gruden,13,11,11,0.5,2,2,2,8
+1031,Tennessee Titans,NFL,1960,2023,966,470,490,6,0.49,Matthews,Moon,George,Givins,Fisher,25,17,23,0.425,2,0,1,11
+1032,Washington Commanders,NFL,1932,2023,1284,625,630,29,0.498,Green,Theismann,Riggins,Monk,Gibbs,25,23,20,0.535,5,3,5,16
+1033,Washington Football Team,NFL,2020,2021,33,14,19,0,0.424,,,,,,1,0,1,,,0,,1
