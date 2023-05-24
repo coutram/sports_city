@@ -166,7 +166,7 @@ const CustomTablePagination = styled(TablePagination)(
 
 function Orders() {   
   const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [rowsPerPage, setRowsPerPage] = React.useState(10);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -225,9 +225,9 @@ function Orders() {
             </TableRow>
           </TableHead>
           <TableBody>
-          {(rowsPerPage > 0
+          {(rowsPerPage > 0 && data 
             ? data.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-            : data
+            : []
           ).map((row) => (
         <TableRow key={`${row.Rk}-${row.Franchise}`}>
           <TableCell>{row.Franchise}</TableCell>
@@ -241,7 +241,7 @@ function Orders() {
           <TableFooter>
           <TableRow>
             <CustomTablePagination
-              rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
+              rowsPerPageOptions={[10, 20, 50, { label: 'All', value: -1 }]}
               colSpan={3}
               count={data ? data.length : 0}
               rowsPerPage={rowsPerPage}
