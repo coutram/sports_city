@@ -51,9 +51,15 @@ function getComparator(order, orderBy) {
 }
 
 function ratingAlgo (row)  { 
-  return Math.ceil(row.G * row["W-L%"])
-}
+  let multipler = 1 
+  if (row.Sport || row.sport == "NFL") { 
+    multipler = 10
+  } else if (row.Sport || row.sport == "NBA") { 
+    multipler = 5
+  }
 
+  return Math.ceil(multipler * row.G * row["W-L%"])
+}
 
 function Orders() { 
   const [data, setData] = useState(null);
@@ -98,6 +104,7 @@ function Orders() {
           <TableHead>
             <TableRow>
               <TableCell><b>Sports Team</b></TableCell>
+              <TableCell><b>Sport</b></TableCell>
               <TableCell><b>Wins</b></TableCell>
               <TableCell><b>Win %</b></TableCell>
               <TableCell align="right"><b>Ratings</b></TableCell>
@@ -107,6 +114,7 @@ function Orders() {
             {data && data.map((row) => (
         <TableRow key={row.Rk}>
           <TableCell>{row.Franchise}</TableCell>
+          <TableCell>{row.Sport}</TableCell>
           <TableCell>{row.W}</TableCell>
           <TableCell>{row["W-L%"]}</TableCell>
           <TableCell align="right">{ratingAlgo(row)}</TableCell>
